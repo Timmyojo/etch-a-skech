@@ -12,7 +12,7 @@ body {
 
 .board {
     background-color: red;
-    width: 75%;
+    width: 768;
     height: 600px;
     margin: 20px auto 0 auto;
     border-radius: 20px;
@@ -75,11 +75,5 @@ footer {
     margin-bottom: 20px;
 }
 
-@media (max-width: 560px) {
-    .m-btn {
-        display: inline-block;
-    }
-
-}
 
 
