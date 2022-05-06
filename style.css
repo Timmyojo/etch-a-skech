@@ -1,0 +1,85 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(155, 151, 151);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.board {
+    background-color: red;
+    width: 75%;
+    height: 600px;
+    margin: 20px auto 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: italic;
+    color: yellow;
+    margin-top: 15px;
+}
+ 
+.container {
+    margin: 40px;
+    height: 70%;
+}
+
+.box {
+    border: rgb(120, 120, 120) 1px solid;
+    background-color: #fff;
+    width: auto;
+    height: 100%;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px 0 5px;
+}
+button {
+    background-color: rgb(120, 120, 120);
+    width: auto;
+    height: auto;
+    border: yellow 5px solid;
+    border-radius: 50%;
+
+}
+
+.form {
+    display:  flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.m-btn {
+    display: flex;
+    margin-right: 35px;
+    gap: 40px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 560px) {
+    .m-btn {
+        display: inline-block;
+    }
+
+}
+
+
